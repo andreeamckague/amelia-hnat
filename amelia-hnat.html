@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Amelia Hnat | Portfolio</title>
+  <meta name=”description” content=”Portfolio of Polish-Canadian Professional Fine Artist and Commissioner, Amelia Hnat.”>	<meta name=”author” content=”Amelia Hnat”>
+	
+  <link rel="icon" type="image/x-icon" href="icons/amelia-hnat.ico">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="home">
+  <script>
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    // Redirect to the mobile version
+    window.location.href = "amelia-hnat-mobile.html";
+  }
+  </script>
+
+  <div id="navbar" class="nav-container">
+    <nav>
+	  <ul>
+	    <a href="amelia-hnat.html"><img src="icons/amelia-hnat.png"></a>	
+		<li><a href="#hero">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><div class="dropdown">
+              <button class="dropbtn"><a href="gallery.html">Gallery</a><img src="icons/down-triangle.png" alt="Arrow Icon"></button>
+                <div class="dropdown-content">
+                  <a href="gallery.html">All</a>
+                  <a href="drawings.html">Drawings</a>
+                  <a href="paintings.html">Paintings</a>
+                </div>
+		</div></li>
+        <li><div class="dropdown">
+          <button class="dropbtn"><a href="process.html">Process</a><img src="icons/down-triangle.png" alt="Arrow Icon"></button>
+          <div class="dropdown-content">
+            <a href="process.html#commission">Commission?</a>
+            <a href="process.html#client">Process</a>
+            <a href="process.html#benefits">Benefits</a>
+            <a href="process.html#faqs">FAQs</a>
+		  </div></div></li>
+	  </ul>
+	  <button onclick="mailto:amel.hnat@gmail.com" class="nav-button b1">Start Your Commission</button>
+    </nav>
+  </div>
+	
+  <div id="hero" class="hero-container">
+    <img src="icons/hero-underline.png" alt="Underline" class="hero-underline">
+    <section>
+	
+      <h1>AMELIA HNAT<br>PROFESSIONAL FINE ARTIST<br>BASED IN ONTARIO.</h1>
+	 
+	  <div class="img-container">
+	    <img src="otherImages/hero-left.png" alt="Art Work of Amelia" class="hero">
+		<img src="otherImages/hero-right.png" alt="A Second Art Work of Amelia" class="hero">
+		<div style="position: absolute; margin-left: 86vw; margin-top: 15.5vw;">
+		<a href="#featured"><img src="icons/yellow-down-arrow.png" alt="Down Pointing Arrow" class="hero-arrow"></a>
+        </div>
+	  </div>
+	</section>
+  </div>
+  
+  <div id="featured" class="feat">
+    <h2 style="position: absolute;z-index: 2;">FEATURED ARTWORKS</h2>
+	<a href="gallery.html"><img src="icons/black-right-arrow.png" alt="Right Pointing Arrow" class="arrow"></a>
+	<div class="banner">
+    <div class="slider" style="--quantity: 8">
+	  <div class="item" style="--position: 1"><a href="sisters.html"><img src="galleryImages/sisters.jpg" alt="Artwork of two sisters"></a></div>
+	  <div class="item" style="--position: 2"><a href="quebec-city.html"><img src="galleryImages/quebec-city.jpg" alt="Artwork of the city of quebec"></a></div>
+	  <div class="item" style="--position: 3"><a href="uncover.html"><img src="galleryImages/uncover.jpg" alt="Charcoal artwork self-portrait"></a></div>
+	  <div class="item" style="--position: 4"><a href="dogs.html"><img src="galleryImages/dogs.jpg" alt="Realistic artwork of three dogs"></a></div>
+	  <div class="item" style="--position: 5"><a href="what-are-you-looking-at.html"><img src="galleryImages/what-are-you-looking-at.jpg" alt="Artwork of woman staring into mirror"></a></div>
+	  <div class="item" style="--position: 6"><a href="joffre-lake.html"><img src="galleryImages/joffre-lake.jpg" alt="Artwork of landscape"></a></div>
+	  <div class="item" style="--position: 7"><a href="basilisk.html"><img src="galleryImages/basilisk.jpg" alt="Artwork of creature from Harry Potter"></a></div>
+	  <div class="item" style="--position: 8"><a href="girl-in-smoke.html"><img src="galleryImages/girl-in-smoke.jpg" alt="Artwork of woman and smoke"></a></div>
+	</div>
+  </div>
+  </div>
+ 
+  <div id="about" class="split-screen-layout">
+    <section>
+	  <div class="flex-row">
+	    <h2>ABOUT</h2>
+	    <a href="#about"><img src="icons/yellow-down-arrow.png" alt="Down Pointing Arrow" class="down-right-arrow"></a>
+	  </div>
+      <p>Amelia is a young Polish-Canadian artist who
+        loves drawing, and finds joy
+		in drawing any and every subject. Her goal is to
+		invoke emotion and carry memories through her work.
+		Her favourite things are her cat, pickles,
+		and listening to audiobooks while drawing.</p>
+    </section>
+    <section>
+      <img src="otherImages/uncover-zoom.jpg" alt="Uncover 2024 Artwork By Amelia" class="about-img">
+    </section>
+  </div>
+ 
+  <div id="cta" class="split-screen-layout">
+    <section>
+	  <img src="otherImages/sisters-zoom.jpg" alt="Sisters 2022 Artwork by Amelia" class="cta-img">
+	</section>
+	<section>
+	  <h3>START YOUR PROJECT TODAY</h3>
+	  <div class="cta-text-and-underline">
+	    <a href="mailto:amel.hnat@gmail.com"><p class="button">LET'S CONNECT</p>
+	    <img src="icons/button-underline.png" alt="Underline" class="underline"></a>
+	  </div>
+	</section>
+  </div>
+  
+  <div id="foot" class="foot-container">
+    <footer>
+      <div class="sitemap-col left">
+	    <a href="#hero"><h4 class="left">HOME</h4></a><br>
+		<img src="icons/foot-left-underline.png" alt="Underline" class="left-underline"><br>
+		<a href="#featured"><p>Featured Art</p></a><br>
+		<a href="#about"><p>About</p></a><br>
+		<a href="#cta"><p>Contact</p></a>
+      </div>
+	  <div class="sitemap-col center">
+		<a href="gallery.html"><h4 class="center">GALLERY</h4></a><br>
+		<img src="icons/foot-center-underline.png" alt="Underline" class="center-underline"><br>
+		<a href="gallery.html"><p>All</p></a><br>
+		<a href="drawings.html"><p>Drawings</p></a><br>
+		<a href="paintings.html"><p>Paintings</p></a>
+	  </div>
+	  <div class="sitemap-col right">
+		<a href="process.html"><h4 class="right">PROCESS</h4></a><br>
+		<img src="icons/foot-right-underline.png" alt="Underline" class="right-underline"><br>
+		<a href="process.html#commission"><p>Commission?</p></a><br>
+		<a href="process.html#client.html"><p>Process</p></a><br>
+		<a href="process.html#benefits.html"><p>Benefits</p></a><br>
+		<a href="process.html#faqs.html"><p>FAQs</p></a>
+	  </div>
+    </footer>
+	<h5>AMELIA<br>HNAT</h5>
+  </div>
+  
+</body>
+
+</html>

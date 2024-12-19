@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0; z-index: 0; overflow-x: hidden;}
+html{scroll-behaviour: smooth; overflow-x: hidden; margin: 0; padding: 0; width: 100%;}
+.home{
+  background-color: #101010;
+  margin: 0;
+  color: #f6f6f6;
+  overflow: hidden;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85vw;
+  margin: 0 auto;
+  margin-top: 2.5vh;
+}
+nav .logo{height: 5vh;}
+nav .icon{height: 2.8vh; padding: 0; margin: 0;}
+.hero{width: 90;height: 93vh;}
+.underline-container{position: absolute; margin-top: 8.5vh; margin-left: 22vw;}
+.underline-container img{width: 56vw; height: auto;}
+.hero-img{
+  background-image: url("otherImages/mobile-hero-img.png"); 
+  background-position: center;
+  background-size: 110vw;
+  width: 88%; 
+  height: 66%; 
+  object-fit: cover;
+  position: absolute; 
+  bottom: 2.5vh; 
+  left: 6%; 
+  overflow: hidden;
+}
+h1{
+  font-family: Roboto Condensed, sans serif;
+  font-weight: 600;
+  line-height: 5.2vh;
+  text-align: center;
+  margin-top: 10vw;
+  font-size: 10.8vw;
+  overflow: hidden;
+}
